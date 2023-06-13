@@ -1,0 +1,53 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+input {
+  outline: none;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: rgb(205, 205, 205);
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  background-color: rgb(205, 205, 205);
+}
+
+.new-expense__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-expense__actions .error {
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: red;
+  font-weight: bold;
+  background-color: rgb(255, 167, 167);
+  transition: all;
+  animation-duration: 200ms;
+}
+
+.new-expense__actions .buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
